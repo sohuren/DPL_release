@@ -24,7 +24,7 @@ soft_featureset_3_3_learngraph_M_full.log
 In those log files, after each iteration, you can find result like this:
 Val set: Average loss: xx, Accuracy: xx/xx (xx%), precision: (0.xx), recall: (0.xx), f1: (0.xx)
 
-After training, you can replicate our test by running:
+After training, you can test on other data by running:
 python run_rnn_test.py
 
 Alternatively, you can supply additional arguments to run predictions on new instances. The format of the input text should be: sent + \tab + mention index  
