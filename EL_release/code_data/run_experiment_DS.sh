@@ -26,5 +26,5 @@ python baseline_rnn.py \
         --save_path ${resultroot}/model_hard_${length_train}.pkl  \
         --prediction_file ${resultroot}/prediction_${length_train}_hard \
         --hard_em True \
-        --epochs 5 > ${resultroot}/hard_${length_train}_full.log
+        --epochs 3 > ${resultroot}/hard_${length_train}_full.log
 done
