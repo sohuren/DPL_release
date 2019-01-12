@@ -26,6 +26,6 @@ python baseline_rnn.py \
         --save_path ${resultroot}/model_soft_featureset_${1}_${length_train}_learngraph.pkl  \
         --stage "M" \
         --epochs 1 \
-        --multiple_M 5 \
+        --multiple_M 3 \
         --learn_graph > ${resultroot}/soft_featureset_${1}_${length_train}_learngraph_M_full.log
 done
